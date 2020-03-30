@@ -26,3 +26,9 @@ Route::get('/contact', function () {
 Route::get('/alogin', function () {	
     return view('admin_login');
 });
+
+
+
+Route::get('/alogin', function () {	
+    return view('admin_login');
+});
