@@ -28,7 +28,6 @@ Route::get('/alogin', function () {
 });
 
 
-
-Route::get('/alogin', function () {	
-    return view('admin_login');
+Route::get('/successlogin', function () {
+    return view('successlogin');
 });
